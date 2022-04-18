@@ -1,12 +1,12 @@
 <!--
  * @Autor: 李建鹏
  * @Date: 2022-04-14 16:07:52
- * @LastEditTime: 2022-04-17 17:25:06
+ * @LastEditTime: 2022-04-18 18:15:40
  * @Description: 
 -->
 <template>
   <div class="home">
-    <mainComponent msg="PROJECT-b 项目" />
+    <mainComponent msg="PROJECT-B 项目" />
   </div>
 </template>
 
