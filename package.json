@@ -1,0 +1,44 @@
+{
+  "name": "multi_project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "dev": "cross-env NODE_ENV=development node config/dev.js",
+    "test": "cross-env NODE_ENV=test node config/dev.js",
+    "pre": "cross-env NODE_ENV=preview node config/dev.js",
+    "prd": "cross-env NODE_ENV=production node config/dev.js",
+    "build:dev": "cross-env NODE_ENV=development node config/build.js",
+    "build:test": "cross-env NODE_ENV=test node config/build.js",
+    "build:pre": "cross-env NODE_ENV=preview node config/build.js",
+    "build:prd": "cross-env NODE_ENV=production node config/build.js",
+    "copy": "node config/copy.js"
+  },
+  "dependencies": {
+    "chalk-pipe": "^5.1.1",
+    "cross-env": "^7.0.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.2",
+    "vue": "^2.6.8",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "chalk": "^3.0.0",
+    "commander": "^9.2.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^4.0.2",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^7.0.2",
+    "vue-template-compiler": "^2.6.8"
+  }
+}
